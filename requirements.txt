@@ -1,8 +1,7 @@
 streamlit==1.45.0
 pandas==2.2.3
 opencv-python-headless==4.9.0.80
-dlib==19.24.2; sys_platform != 'linux'  # Pre-built for local (non-Linux)
-https://github.com/ageitgey/face_recognition_models/releases/download/v0.3.0/dlib-19.24.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl ; sys_platform == 'linux'
+dlib==19.24.2
 face-recognition==1.3.0
 face-recognition-models==0.3.0
 numpy==1.26.4  # Downgraded for compatibility

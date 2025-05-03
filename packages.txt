@@ -1,4 +1,6 @@
-cmake
-libboost-all-dev
-libopenblas-dev
-libx11-dev
+python3-dev
+libpython3-dev
+libgl1-mesa-glx
+libopencv-core4.5
+libopencv-highgui4.5
+ffmpeg

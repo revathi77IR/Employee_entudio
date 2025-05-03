@@ -20,6 +20,8 @@ from datetime import datetime
 from io import BytesIO
 from PIL import Image
 import base64
+import os
+os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
 
 # Initialize session state for user editing
 if 'show_edit_form' not in st.session_state:

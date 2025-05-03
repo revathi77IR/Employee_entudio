@@ -1,13 +1,5 @@
 [server]
-maxUploadSize = 200
-maxMessageSize = 200
-
-[browser]
-gatherUsageStats = false
-
-[theme]
-primaryColor = "#4CAF50"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F0F2F6"
-textColor = "#262730"
-font = "sans serif"
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
